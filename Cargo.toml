@@ -10,6 +10,7 @@ license = "MIT"
 readme = "README.md"
 
 [dependencies]
+anyhow = "1.0.43"
 byteorder = "1"
 chrono = "0.4"
 flate2 = { version = "1", features = ["rust_backend"], default-features = false }
